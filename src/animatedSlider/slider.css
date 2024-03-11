@@ -1,0 +1,55 @@
+/* cards.css */
+
+.container6 {
+    background-color: #0e152c;
+    padding: 3vh 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.cards-container {
+    margin: 8vh 6vw;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 20%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+    background-color: #0e152c;
+    
+}
+
+.middle-card {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    width: 100%;
+    background-color: rgba(14, 21, 44, 0.897);
+    height: 45vh;
+    display: block;
+    object-fit: contain;
+}
+
+.card-content p {
+    margin: 0;
+    background-color: #0e152c;
+    color: #ddd;
+    padding: 2vh 0;
+}
+
+.para {
+    margin: 0 26vw;
+    width: 45vw;
+}

@@ -1,0 +1,62 @@
+.container4 {
+    text-align: center;
+    background-color: #0e152c;
+    color: aliceblue;
+    height: fit-content;
+    padding: 3vh 0;
+}
+
+.container4 .logo {
+    width: 70px;
+    object-fit: contain;
+    padding: 1vh 0 3vh;
+}
+
+.pargraph {
+    width: 40vw;
+    position: absolute;
+    left: 30vw;
+    padding: 3vh 0;
+    font-size: 18px;
+}
+
+.cards-container2 {
+    margin: 8vh 6vw;
+    display: flex;
+    justify-content: center;
+}
+
+ 
+
+.card2 {
+    width: 15%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+    background-color: #0e152c;
+    margin:20vh 0;
+}
+
+.middle-card2 {
+    z-index: 1;
+    transform: scale(1.1);
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.card2 img {
+    width: 100%;
+    background-color: rgba(14, 21, 44, 0.897);
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+ .card2 p{
+    padding: 1vh 0;
+ }

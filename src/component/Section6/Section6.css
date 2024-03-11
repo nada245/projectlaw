@@ -1,0 +1,51 @@
+.mySwiperr {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    right: 50px;
+}
+
+.mainSwiper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../Section7/img_rectangle_441.png");
+    background-size: cover;
+    animation: moveBackground 5s infinite forwards;
+    -webkit-animation: moveBackground 5s infinite forwards;
+    color: azure;
+    padding: 20px;
+}
+
+@keyframes moveBackground {
+
+    /* 0% {
+        background-position: center top;
+    }
+
+    100% {
+        background-position: center bottom;
+    } */
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 100%;
+    }
+}
+
+.company-setup-container {
+    font-family: Arial, sans-serif;
+    text-align: end;
+    width: 390px;
+    height: 10px;
+    padding: 10px;
+
+}
+
+.company-setup-text {
+    color: white;
+    margin-left: 80px;
+
+}

@@ -1,0 +1,26 @@
+.animated-counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.counter-item {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.counter-label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}

@@ -1,0 +1,8 @@
+.image{
+    width: 120px ;
+    height: 110px;
+    object-fit: contain;
+}
+.sliderContainer{
+    overflow: hidden;
+}

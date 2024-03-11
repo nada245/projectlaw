@@ -1,0 +1,100 @@
+.container1 {
+    padding: 2vh 5vw;
+    background-color: #0e152c;
+}
+
+.container1 h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+.container1 .logo {
+    object-fit: contain;
+    position: absolute;
+    right: 47vw;
+    padding: 0 0 3vh;
+}
+
+.card1{
+    padding: 10vh 0 0 ;
+    animation: fade-in 0.5s ease;
+    -webkit-animation: fade-in 5s ease-in-out;
+}
+
+.my-component {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+
+.description {
+    color: aliceblue;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.my-component img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+.description1,.description2 {
+    background-color: aliceblue;
+    font-size: 18px;
+    padding: 12vh 4vw;
+    border-top-left-radius: 30px;
+}
+
+.description2{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.description1 img {
+    width: 500px !important;
+}
+
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+h4{
+    color: aliceblue !important;
+    text-align: center;
+    padding: 3vh 0;
+}
+
+.arrowImage{
+    width: 50px;
+    object-fit: contain;
+}

@@ -1,0 +1,37 @@
+.mainInputs {
+  background-color: #0e152c;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../Section7/img_rectangle_441.png");
+  background-size: cover;
+  animation: moveBackground 5s infinite alternate;
+  -webkit-animation: moveBackground 5s infinite alternate;
+}
+
+@keyframes moveBackground {
+  /* 0% {
+    background-position: center top;
+  }
+
+  100% {
+    background-position: center bottom;
+  } */
+  from {
+    background-position:0%;
+  }
+  to {
+    background-position: 100%;
+  }
+}
+
+.logo {
+  padding: 50px;
+}
+
+.send {
+  direction: rtl;
+  margin-right: 1vw;
+  cursor: pointer;
+}
