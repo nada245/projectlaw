@@ -8,7 +8,8 @@ import img1 from "../Section6/img_rectangle_440_316x510.png"
 import img4 from "../Section6/Rectangle 440.png"
 import img3 from "../Section6/القضايا الدولية.png"
 import img2 from "../Section6/img_rectangle_440_71x510.png"
-import img5 from "../Section6/القضايا الدولية.png"
+import img5 from "../Section6/القضايا العقارية.png"
+import logo from "../ButtonFooter/img_arrow_left.svg"
 const Section6 = () => {
     return (
         <div className='mainSwiper'>
@@ -25,10 +26,10 @@ const Section6 = () => {
                     freeMode={false}
                 >
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "280px", height: "200px" }} src={img1} alt='' />
+                        <img style={{ width: "370px", height: "200px" }} src={img1} alt='' />
                         <div className="company-setup-container " >
                             <p className="company-setup-text">
-                                <h5>القضايا التجاريه</h5>
+                                <h5 style={{color:"#845F38"}}>القضايا التجاريه</h5>
                                 تتطلب القضايا التجارية إلى محامين أصحاب معارف وخبرات طويلة، لذا يعد توكيل محامي تجاري من القرارات المهمة لضمان حقوق الموكل. ومع خبرة تفوق الـ 30 عامًا في القضايا التجارية، نضمن لك النصرة في هذا النوع من القضايا والذي يساعدك على تحقيق أهدافك التجارية.
                             </p>
 
@@ -36,11 +37,11 @@ const Section6 = () => {
                     </SwiperSlide>
 
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "280px", height: "250px" }} src={img2} alt='' />
+                        <img style={{ width: "370px", height: "250px" }} src={img2} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                                <h5>القضايا الجنائيه</h5>
+                                <h5 style={{color:"#845F38"}}>القضايا الجنائيه</h5>
 
                                 هل تبحث عن محامي جنائي يقوم بالدفاع والمرافعة أمام المحاكم الجنائية متعهدًا على نصرتك؟ مع المجموعة التجارية والبحرية سندعمك بأفضل محامي جنايات يتولى أمر القضايا الجنائية ويقوم بحضور التحقيقات أمام النيابة العامة ويركز جهده وخبرته على تحقيق النصر في قضيتك.
 
@@ -48,11 +49,11 @@ const Section6 = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide style={{ width: "100px", height: "90px" }} >
-                        <img style={{ width: "280px", height: "280px" }} src={img3} alt='' />
+                        <img style={{ width: "370px", height: "280px" }} src={img3} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                                <h5>  القضايا الدوليه
+                                <h5 style={{color:"#845F38"}}>  القضايا الدوليه
                                 </h5>
 
                                 نقدم الدعم الكافي من الدراسات والاستشارات لجميع عملائنا المحليين والدوليين في التقاضي عبر المحاكم الدولية. فمن خلال الخبرة في القانون الدولي، سندعمك بمحامي دولي متمرس مستعد لتولي قضاياك الدولية والعمل على تحقيق غاياتك في التحكيم التجاري الدولي.
@@ -60,11 +61,11 @@ const Section6 = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide style={{ width: "100px", height: "80px" }} >
-                        <img style={{ width: "280px", height: "250px" }} src={img4} alt='' />
+                        <img style={{ width: "370px", height: "250px" }} src={img4} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                                <h5> القضايا المدنيه</h5>
+                                <h5 style={{color:"#845F38"}}> القضايا المدنيه</h5>
 
                                 لدى مكتبنا محامون متخصصون في القضايا المدنية مستعدون لتولي كافة أنواع القضايا الناشئة عن العقود والمعاملات المدنية مع تقديم الدعم الكافي من المرافعة والدفاع أمام المحاكم لنصرة موكلينا. فمن خلال التعاقد معنا، سيتولى أشهر محامي مدني في مكتبنا قضيتك ويحقق لك النصر من خلال خبراته ومعارفه.
                             </p>
@@ -73,11 +74,11 @@ const Section6 = () => {
                     </SwiperSlide>
 
                     <SwiperSlide style={{ width: "100px", height: "80px" }} >
-                        <img style={{ width: "280px", height: "250px" }} src={img5} alt='' />
+                        <img style={{ width: "370px", height: "250px" }} src={img5} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                                <h5> القضايا العقاريه</h5>
+                                <h5 style={{color:"#845F38"}}> القضايا العقاريه</h5>
                                 تقدم المجموعة التجارية والبحرية خدمات قانونية رائدة حول المشكلات القانونية المتعلقة بالعقارات مثل قضايا التعويضات والحيازات العقارية وغيرها. سنقوم بدعمك بأفضل محامي عقارات بمكتبنا ليتولى قضيتك ويحقق أهدافك القانونية في القضايا العقارية وفي مجال التطوير العقاري داخل وخارج مصر.
                             </p>
 
@@ -101,8 +102,8 @@ const Section6 = () => {
 
                     شركة محاماة في مصر في المستقبل القريب.<br /><br />
 
-                    <a href="/">اطلب الأن أستشارة فورية</a>
-
+                    <a style={{ color: "white", textDecoration: "none", textAlign: "end" }} href="/">اطلب الأن أستشارة فورية</a>
+                    <img style={{ position: "relative", right: "56%" }} src={logo} alt='/' />
                 </p>
             </div>
         </div>

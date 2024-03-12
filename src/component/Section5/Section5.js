@@ -5,12 +5,13 @@ import img2 from "../Section5/Rectangle 440.png"
 import img3 from "../Section5/ƒ½óúO¬ sn O¡¬.png"
 import img4 from "../Section5/Rectangle 440(1).png"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import logo from "../ButtonFooter/img_arrow_left.svg"
 import 'swiper/css/effect-coverflow';
 import { Mousewheel, EffectCoverflow } from 'swiper/modules';
 const Section5 = () => {
     return (
         <div className='mainSwiper'>
-            <div >
+            <div className='mySwiper' >
                 <Swiper
                     direction={'vertical'}
                     slidesPerView={1}
@@ -22,13 +23,14 @@ const Section5 = () => {
                     effect={'slide'}
                     freeMode={false}
                 >
-                    
+
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "290px", height: "200px" }} src={img1} alt='' />
+                        <img style={{ width: "370px", height: "200px" }} src={img1} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                            <h5>تاسيس الشركات</h5>
+                                <h5>تاسيس الشركات</h5>
+
                                 هل ترغب في تأسيس شركة في مصر؟ نعمل على<br />
 
                                 تقديم الدعم لأعمال الشركات المختلفة بمستوى مميز<br />
@@ -43,15 +45,15 @@ const Section5 = () => {
 
                                 كافة مراحل التأسيس والإعداد.<br /><br />
                                 <br />
-                                <a href="/" style={{ color: "white" }}>الذهاب الى الصفحة  </a>
-                            
+                                <a href="/" style={{ color: "white", textDecoration: "none", textAlign: "end" }}>الذهاب الى الصفحة  </a>
+                                {/* <img  style={{position:"relative",right:"50%"}}src={logo} alt='/'/> */}
                             </p>
 
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "290px", height: "200px" }} src={img2} alt='' />
+                        <img style={{ width: "370px", height: "200px" }} src={img2} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
@@ -63,55 +65,55 @@ const Section5 = () => {
 
                                 وهذه الخدمة لكل من يبحث عن رقم محامي للاستشارة.<br /><br />
 
-                                <a href="/" style={{ color: "white" }}>الذهاب الى الصفحة  </a>
+                                <a href="/" style={{ color: "white", textDecoration: "none", textAlign: "end" }}>الذهاب الى الصفحة  </a>
                             </p>
 
                         </div>
                     </SwiperSlide>
-                    
+
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "290px", height: "200px" }} src={img3} alt='' />
+                        <img style={{ width: "370px", height: "200px" }} src={img3} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                            <h5>  استثمر في مصر</h5>
+                                <h5>  استثمر في مصر</h5>
 
-استثمار في مصر يعد فرصة مثيرة بفضل موقعها<br />
+                                استثمار في مصر يعد فرصة مثيرة بفضل موقعها<br />
 
-الاستراتيجي، واقتصادها المتنامي، وجهودها في<br />
+                                الاستراتيجي، واقتصادها المتنامي، وجهودها في<br />
 
-تحسين بيئة الاستثمار. تقدم الحكومة دعمًا وتسهيلات<br />
+                                تحسين بيئة الاستثمار. تقدم الحكومة دعمًا وتسهيلات<br />
 
-للمستثمرين والسوق المصري يوفر فرصا متنوعة<br />
+                                للمستثمرين والسوق المصري يوفر فرصا متنوعة<br />
 
-وواسعة للعملاء المحتملين.<br /><br />
+                                وواسعة للعملاء المحتملين.<br /><br />
 
-<a href="/" style={{ color: "white" }} >الذهاب الى الصفحة    </a>
+                                <a href="/" style={{ color: "white", textDecoration: "none", textAlign: "end" }} >الذهاب الى الصفحة    </a>
                             </p>
 
                         </div>
                     </SwiperSlide>
 
-                
 
-<SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "290px", height: "200px" }} src={img4} alt='' />
+
+                    <SwiperSlide style={{ width: "100px", height: "70px" }} >
+                        <img style={{ width: "370px", height: "200px" }} src={img4} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                            <h5>  توكيل محامي  </h5>
+                                <h5>  توكيل محامي  </h5>
 
-توكيل المحامي هو اتفاق قانوني يمنح شخصًا آخر<br />
+                                توكيل المحامي هو اتفاق قانوني يمنح شخصًا آخر<br />
 
-صلاحية تمثيلك أو تنفيذ الإجراءات القانونية<br />
+                                صلاحية تمثيلك أو تنفيذ الإجراءات القانونية<br />
 
-نيابة عنك. يعتمد على الثقة والثقة المتبادلة<br />
+                                نيابة عنك. يعتمد على الثقة والثقة المتبادلة<br />
 
-ويتضمن توثيقًا رسميًا لتحديد نطاق الصلاحيات<br />
+                                ويتضمن توثيقًا رسميًا لتحديد نطاق الصلاحيات<br />
 
-الممنوحة.<br /><br />
+                                الممنوحة.<br /><br />
 
-<a href="/" style={{ color: "white" }} >الذهاب الى الصفحة    </a>
+                                <a href="/" style={{ color: "white", textDecoration: "none", textAlign: "end" }}>الذهاب الى الصفحة    </a>
                             </p>
 
                         </div>
@@ -122,9 +124,13 @@ const Section5 = () => {
                 <h1 style={{ marginBottom: "50px", textAlign: "end" }}> محامين خبراء في مجالات <br />القانون والقضايا المختلفة<br /></h1>
                 <p style={{ textAlign: "end" }}>ما يميز مكتبنا عن مكاتب المحاماة الأخرى، هو انفرادنا<br />
 
-                يمكن تقديم هذه الخدمات على أنها مكونة من أكثر من 30 خدمة<br/> قانونية بخبرات عالمية وفهم واسع للبيئة القانونية.<br/> لتقديم أفضل مستوى من الحلول القانونية على الصعيد المحلي والدولي  يمكن استخدام مكتبة <br/>مكونة من مكونات مستقلة لتطوير تطبيقات ويب وأنظمة معلومات وتطبيقات أخرى.<br/> يمكن استخدام هذه المكتبة لتطوير تطبيقات متكاملة مع مكتب محامي مصر الأول<br/> وتقديم خدمات قانونية عالمية ومستوى فاعلية ممتاز في الجودة والوقت
-                 <br/>   <a href="/">اطلب الأن أستشارة فورية</a>
-
+                    يمكن تقديم هذه الخدمات على أنها مكونة من أكثر من 30 خدمة<br /> قانونية بخبرات عالمية وفهم واسع للبيئة القانونية.<br /> لتقديم أفضل مستوى من الحلول القانونية على الصعيد المحلي والدولي  يمكن استخدام مكتبة <br />مكونة من مكونات مستقلة لتطوير تطبيقات ويب وأنظمة معلومات وتطبيقات أخرى.<br /> يمكن استخدام هذه المكتبة لتطوير تطبيقات متكاملة مع مكتب محامي مصر الأول<br /> وتقديم خدمات قانونية عالمية ومستوى فاعلية ممتاز في الجودة والوقت
+                    <br />
+                    <br />
+                    <div>
+                        <a style={{ color: "white", textDecoration: "none" }} href="/">اطلب الأن أستشارة فورية</a>
+                        <img style={{ position: "relative", right: "38%" }} src={logo} alt='/' />
+                    </div>
                 </p>
             </div>
         </div>

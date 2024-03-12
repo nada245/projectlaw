@@ -11,8 +11,8 @@ const Slider = () => {
 
                 <div className="carousel-item active">
                     <div className='infoSlider'>
-                        <h1 style={{ color: "white", textAlign: "end",margin:'10vh 7vw 0 0', fontWeight: "bold" }}>استشارات قانونية بمعايير<br /> عالمية المستوى</h1>
-                        <p style={{ color: "white", textAlign: "end",margin:'10vh 7vw 0 0' }}>بخبرة قانونية واسعة، نقدم استشارات قانونية لجميع العملاء من أيدي نخبة من أكفأ المحامين <br />المتمرسين وأفضل الشركاء  بمستوى جديد من الحلول القانونية المتكاملة. اطلب الآن استشارة<br /> قانونية فورية وتواصل مع أفضل مستشار قانوني واحصل على الدعم القانوني لحل قضاياك <br />وتحقيق أهدافك</p>
+                        <h1 style={{ color: "white", textAlign: "end", margin: '10vh 7vw 0 0', fontWeight: "bold" }}>استشارات قانونية بمعايير<br /> عالمية المستوى</h1>
+                        <p style={{ color: "white", textAlign: "end", margin: '10vh 7vw 0 0' }}>بخبرة قانونية واسعة، نقدم استشارات قانونية لجميع العملاء من أيدي نخبة من أكفأ المحامين <br />المتمرسين وأفضل الشركاء  بمستوى جديد من الحلول القانونية المتكاملة. اطلب الآن استشارة<br /> قانونية فورية وتواصل مع أفضل مستشار قانوني واحصل على الدعم القانوني لحل قضاياك <br />وتحقيق أهدافك</p>
                     </div>
                     <div className='imgSlider'>
                         <img style={{ position: "relative", top: "-150px", right: "-100px" }} src={img1} alt="" />
@@ -29,8 +29,8 @@ const Slider = () => {
                     </div>
 
                 </div>
-                <a style={{ background: "#0e152c", color: "white", outline: "none", textDecoration: "none", position: "relative", top: "80%", left: "1250px",fontWeight:"bold",margin:'0 -7vw 0 0' }} href='/'>اطلب الان استشاره فوريه</a>
-                <img src={arrowleft} style={{ position: "relative", top: "80%", left: "75%" }} alt="" />
+                <a style={{ background: "#0e152c", color: "white", outline: "none", textDecoration: "none", position: "relative", top: "80%", left: "1250px", fontWeight: "bold", margin: '0 -7vw 0 0' }} href='/'>اطلب الان استشاره فوريه</a>
+                <img src={arrowleft} style={{ position: "relative", top: "80%", left: "74%" }} alt="" />
             </div>
             <button className="carousel-control-prev" data-bs-target="#carouselExampleAutoplaying"
                 data-bs-slide="prev" >

@@ -24,10 +24,10 @@ const Section7 = () => {
                     freeMode={false}
                 >
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "350px", height: "250px" }} src={img1} alt='' />
+                        <img style={{ width: "370px", height: "250px" }} src={img1} alt='' />
                         <div className="company-setup-container " >
                             <p className="company-setup-text">
-                                <h5> محامي  في مصر</h5>
+                                <h5 style={{color:"#845F38"}}> محامي  في مصر</h5>
                                 28 يناير. 9 دقائق<br />
                                 على مر السنين وقد تم الاعتراف بالمحامي المصري كونه<br />
                                 أحد أجدر رجال القانون في تولي المسائل<br />
@@ -40,11 +40,11 @@ const Section7 = () => {
                     </SwiperSlide>
 
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "300px", height: "290px" }} src={img2} alt='' />
+                        <img style={{ width: "370px", height: "290px" }} src={img2} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                                <h5>  تاسيس شركه في السعوديه</h5>
+                                <h5 style={{color:"#845F38"}}>  تاسيس شركه في السعوديه</h5>
 
                                 28 يناير .9 دقائق
                                 <br />
@@ -64,11 +64,11 @@ const Section7 = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide style={{ width: "100px", height: "90px" }} >
-                        <img style={{ width: "300px", height: "280px" }} src={img3} alt='' />
+                        <img style={{ width: "370px", height: "280px" }} src={img3} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                                <h5 style={{ textAlign: "end" }}>تسجيل العلامه التجاريه</h5>
+                                <h5 style={{ textAlign: "end",color:"#845F38" }}>تسجيل العلامه التجاريه</h5>
                                 28 يناير .9 دقائق
                                 <br />                                يمثل أحد أهم الإجراءات القانونية المهمة لأي فرد أو<br />
 
@@ -85,11 +85,11 @@ const Section7 = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide style={{ width: "100px", height: "80px" }} >
-                        <img style={{ width: "300px", height: "300px" }} src={img4} alt='' />
+                        <img style={{ width: "370px", height: "300px" }} src={img4} alt='' />
                         <div className="company-setup-container">
 
                             <p className="company-setup-text">
-                                <h5>   حمايه الملكيه الفكريه  </h5>
+                                <h5 style={{color:"#845F38"}}>   حمايه الملكيه الفكريه  </h5>
                                 28 يناير .9 دقائق
                                 <br />
                                 تعد أحد أفرع الملكية حيث لا تقتصر على كونها<br />

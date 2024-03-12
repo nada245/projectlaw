@@ -30,35 +30,35 @@ const Clients = () => (
             <img src={image1} alt="" />
             <div className="card-content2">
               <p>رمضان رزق</p>
-              <p>رمضان رزق</p>
+              <p style={{color:"#845F38"}}> محامي احوال شخصيه</p>
             </div>
           </div>
           <div className="card2">
             <img src={image4} alt="" />
             <div className="card-content2">
-              <p>رمضان رزق</p>
-              <p>رمضان رزق</p>
+              <p> محمد ابو الضيف</p>
+              <p style={{color:"#845F38"}}> الرئيس التنفيذي</p>
             </div>
           </div>
           <div className="card2 middle-card2">
             <img src={image2} alt="Card 2" />
             <div className="card-content2">
-              <p>حلول قانونية سريعة</p>
-              <p>حلول قانونية سريعة</p>
+              <p>  هشام محمود</p>
+              <p style={{color:"#845F38"}}>  محامي جنائي</p>
             </div>
           </div>
           <div className="card2">
             <img src={image3} alt="Card 3" />
             <div className="card-content2">
-              <p>حفظ أسرار العملاء</p>
-              <p>حفظ أسرار العملاء</p>
+              <p>  كرم موريس</p>
+              <p style={{color:"#845F38"}}>  محامي شركات</p>
             </div>
           </div>
           <div className="card2">
             <img src={image5} alt="Card 3" />
             <div className="card-content2">
-              <p>حفظ أسرار العملاء</p>
-              <p>حفظ أسرار العملاء</p>
+              <p>سهي خيري</p>
+              <p style={{color:"#845F38"}}>  محاميه بنوك</p>
             </div>
           </div>
         </div>
