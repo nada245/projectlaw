@@ -24,7 +24,7 @@ const Section7 = () => {
                     freeMode={false}
                 >
                     <SwiperSlide style={{ width: "100px", height: "70px" }} >
-                        <img style={{ width: "370px", height: "250px" }} src={img1} alt='' />
+                        <img style={{ width: "450px", height: "250px" }} src={img1} alt='' />
                         <div className="company-setup-container " >
                             <p className="company-setup-text">
                                 <h5 style={{color:"#845F38"}}> محامي  في مصر</h5>
